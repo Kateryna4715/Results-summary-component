@@ -1,0 +1,59 @@
+@media (max-width: 32rem) {
+  .component {
+    flex-direction: column;
+  }
+
+  .blue-half,
+  .white-half {
+    width: 28rem;
+    justify-content: center;
+  }
+
+  .blue-half {
+    height: 26.8rem;
+  }
+
+  .white-half {
+    height: 32.8rem;
+  }
+
+  .result-heading {
+    margin-bottom: 1.6rem;
+  }
+
+  .result-circle {
+    margin-bottom: 1.6rem;
+    width: 10.4rem;
+    height: 10.4rem;
+  }
+
+  .goal-score {
+    font-size: 1.2rem;
+  }
+
+  .score-description {
+    font-size: 1.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .summary-list {
+    gap: 1.2rem;
+  }
+
+  .summary-list li {
+    height: 4rem;
+  }
+
+  .icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .ability {
+    font-weight: 700;
+  }
+
+  .btn {
+    padding: 1.4rem;
+  }
+}

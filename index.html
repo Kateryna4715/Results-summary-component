@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container flex-centered">
+      <div class="component flex-centered">
+        <div class="blue-half flex-column flex-centered">
+          <h1 class="result-heading">Your result</h1>
+
+          <div class="result-circle flex-column flex-centered">
+            <p class="score">76</p>
+            <p class="goal-score">of 100</p>
+          </div>
+
+          <p class="salutation">Great</p>
+          <span class="score-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </span>
+        </div>
+
+        <div class="white-half flex-column">
+          <h2 class="summary-heading">Summary</h2>
+
+          <ul class="summary-list flex-column">
+            <li class="red flex-centered">
+              <div class="flex-centered">
+                <img
+                  class="icon"
+                  src="assets/images/icon-reaction.svg"
+                  alt="Lightning icon"
+                />
+                <span class="ability">Reaction</span>
+              </div>
+
+              <span class="points"><strong>80</strong> / 100</span>
+            </li>
+
+            <li class="yellow flex-centered">
+              <div class="flex-centered">
+                <img
+                  class="icon"
+                  src="assets/images/icon-memory.svg"
+                  alt="Brain icon"
+                />
+                <span class="ability yellow">Memory</span>
+              </div>
+
+              <span class="points"><strong>92</strong> / 100</span>
+            </li>
+
+            <li class="green flex-centered">
+              <div class="flex-centered">
+                <img
+                  class="icon"
+                  src="assets/images/icon-verbal.svg"
+                  alt="Chat bubble icon"
+                />
+                <span class="ability">Verbal</span>
+              </div>
+
+              <span class="points"><strong>61</strong> / 100</span>
+            </li>
+
+            <li class="blue flex-centered">
+              <div class="flex-centered">
+                <img
+                  class="icon"
+                  src="assets/images/icon-visual.svg"
+                  alt="Eye icon"
+                />
+
+                <span class="ability">Visual</span>
+              </div>
+
+              <span class="points"><strong>72</strong> / 100</span>
+            </li>
+          </ul>
+
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

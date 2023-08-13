@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+/* ******************* */
+/* HELPER CLASS */
+/* ******************* */
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ******************* */
+/* COMPONENT LAYOUT */
+/* ******************* */
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.component {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.6rem;
+  box-shadow: 4px 4px 12px 2px hsla(241, 100%, 89%, 0.3);
+}
+
+.blue-half {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 1.6rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.blue-half,
+.white-half {
+  align-items: center;
+  width: 21.6rem;
+  height: 30rem;
+}
+
+/* ******************* */
+/* LEFT SIDE */
+/* ******************* */
+
+.result-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(241, 100%, 89%);
+  margin: 2rem auto;
+}
+
+.result-circle {
+  width: 11.2rem;
+  height: 11.2rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  margin-bottom: 2rem;
+}
+
+.score {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.goal-score {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsla(241, 100%, 89%, 0.6);
+}
+
+.salutation {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.score-description {
+  font-size: 1rem;
+  color: hsl(241, 100%, 89%);
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  margin: 0 3.2rem 3.2rem;
+  text-align: center;
+}
+
+/* ******************* */
+/* RIGHT SIDE */
+/* ******************* */
+
+.summary-heading {
+  align-self: flex-start;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  margin: 2rem 2.4rem 1.6rem;
+}
+
+.summary-list {
+  list-style: none;
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.summary-list li {
+  height: 3.6rem;
+  border-radius: 0.6rem;
+  padding: 0.2rem 0.8rem;
+  margin: 0 2.4rem;
+
+  justify-content: space-between;
+}
+
+.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0 0.8rem 0 0.4rem;
+}
+
+.red {
+  background-color: hsla(0, 100%, 67%, 0.05);
+  color: hsla(0, 100%, 67%);
+  box-shadow: 0px 1px 1px hsla(0, 100%, 67%, 0.1);
+}
+
+.yellow {
+  background-color: hsla(39, 100%, 56%, 0.05);
+  color: hsla(39, 100%, 56%);
+  box-shadow: 0px 1px 1px hsla(39, 100%, 56%, 0.1);
+}
+
+.green {
+  background-color: hsla(166, 100%, 37%, 0.05);
+  color: hsla(166, 100%, 37%);
+  box-shadow: 0px 1px 1px hsla(166, 100%, 37%, 0.1);
+}
+
+.blue {
+  background-color: hsla(234, 85%, 45%, 0.05);
+  color: hsla(234, 85%, 45%);
+  box-shadow: 0px 1px 1px hsla(234, 85%, 45%, 0.1);
+}
+
+.ability {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.points {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+.points strong {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+
+/* ******************* */
+/* BUTTON*/
+/* ******************* */
+
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(221, 100%, 96%);
+  letter-spacing: 0.05rem;
+  border: none;
+  border-radius: 100px;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: hsla(224, 30%, 27%);
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: hsl(252, 100%, 67%);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    hsl(241, 81%, 54%) 100%
+  );
+}
